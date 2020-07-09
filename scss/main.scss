@@ -4,6 +4,15 @@
 
 // General Styles
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-height: 365px;
+  max-width: 363px;
+}
+
 * {
   margin: 0;
   padding: 0;

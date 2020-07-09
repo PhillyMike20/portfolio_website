@@ -179,6 +179,14 @@ input[class^="btn"]:hover {
     opacity: 0.93;
     margin: 0; }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-height: 365px;
+  max-width: 363px; }
+
 * {
   margin: 0;
   padding: 0; }
