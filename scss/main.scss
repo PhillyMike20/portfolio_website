@@ -402,8 +402,10 @@ img {
   &-b {
     .contact-info {
       display: grid;
-      grid-template-columns: repeat(3, 2fr);
+      grid-template-columns: auto auto;
+      grid-gap: 100px;
       text-align: center;
+      justify-content: center;
     }
   }
 
