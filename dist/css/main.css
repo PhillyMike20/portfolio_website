@@ -319,7 +319,8 @@ img {
 
 #about-ds .about-info {
   display: grid;
-  grid-template-areas: "bioimage bio bio" "d1 d2 d3";
+  grid-template-areas: "bioimage bio bio"
+ "d1 d2 d3";
   grid-column-gap: 2rem;
   grid-row-gap: 2rem;
   margin-bottom: 1rem;
@@ -345,7 +346,8 @@ img {
 
 #about-a .about-info2 {
   display: grid;
-  grid-template-areas: "bioimage bio bio" "d1 d2 d3";
+  grid-template-areas: "bioimage bio bio"
+ "d1 d2 d3";
   grid-gap: 1.2rem; }
 
 #about-a .bio-image {
@@ -420,7 +422,9 @@ img {
 
 #contact-a .text-fields {
   display: grid;
-  grid-template-areas: "name email" "subject phone" "message message";
+  grid-template-areas: "name email"
+ "subject phone"
+ "message message";
   grid-gap: 1.2rem;
   margin-bottom: 1.2rem; }
   #contact-a .text-fields .name-input {
@@ -436,6 +440,21 @@ img {
     height: 100px; }
   #contact-a .text-fields .text-input {
     padding: 0.5rem 1rem; }
+
+#contact-a .text-fields .text-input,
+#contact-a .text-fields .message-input {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+}
+
+#contact-a .text-fields .text-input::placeholder,
+#contact-a .text-fields .message-input::placeholder {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
 
 #contact-a button[type="submit"] {
   width: 50%; }
@@ -507,13 +526,20 @@ img {
   #home-b .stats div {
     padding: 2rem 0 1rem 0; }
   #about-a .about-info2 {
-    grid-template-areas: "bioimage" "bio"; }
+    grid-template-areas: "bioimage"
+ "bio"; }
   #about-ds .about-info {
-    grid-template-areas: "d1" "d2" "d3"; }
+    grid-template-areas: "d1"
+ "d2"
+ "d3"; }
   #about-c {
     display: none; }
   #contact-a .text-fields {
-    grid-template-areas: "name" "subject" "email" "phone" "message"; }
+    grid-template-areas: "name"
+ "subject"
+ "email"
+ "phone"
+ "message"; }
   #contact-b div {
     margin-bottom: 1rem;
     padding-bottom: 1rem; }
