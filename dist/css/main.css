@@ -419,31 +419,41 @@ img {
     border-radius: 50%;
     margin-right: 0.5rem; }
 
-#about-focus {
+#about-bring {
   text-align: center;
 }
 
-.focus-areas {
+.bring-areas {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
   margin-top: 2rem;
 }
 
-.focus-item i {
+.bring-item i {
   color: var(--main-color);
   margin-bottom: 1rem;
 }
 
-.focus-item h3 {
+.bring-item h3 {
   margin-bottom: 0.75rem;
   font-size: 1.2rem;
 }
 
-.focus-item p {
+.bring-item p {
   max-width: 260px;
   margin: 0 auto;
   line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+  .bring-areas {
+    grid-template-columns: 1fr;
+  }
+
+  .bring-item {
+    margin-bottom: 2rem;
+  }
 }
 
 #contact-b .contact-info i {
