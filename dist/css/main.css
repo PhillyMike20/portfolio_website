@@ -634,6 +634,22 @@ img {
   align-items: start;
 }
 
+@media (max-width: 768px) {
+  #contact-a .text-fields {
+    grid-template-areas:
+      "name"
+      "email"
+      "subject"
+      "message"
+      "recaptcha";
+    grid-template-columns: 1fr;
+  }
+
+  .contact-info {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* {
   display: grid;
   grid-template-columns: auto auto;
