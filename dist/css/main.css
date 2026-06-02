@@ -705,8 +705,7 @@ img {
   }
 }
 
-#contact-a .container,
-#contact-b .container {
+#contact-a .container {
   max-width: 1200px;
   margin: 0 auto;
   padding-left: 2rem;
