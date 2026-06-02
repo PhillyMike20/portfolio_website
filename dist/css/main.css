@@ -645,6 +645,12 @@ img {
   text-align: center;
   font-size: 2 rem; }
 
+.recaptcha-wrap {
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem 0;
+}
+
 #main-footer {
   background: #57dbc5;
   color: #333;
