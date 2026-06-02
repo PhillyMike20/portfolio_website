@@ -634,6 +634,25 @@ img {
   align-items: start;
 }
 
+#contact-a .container,
+#contact-b .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  box-sizing: border-box;
+}
+
+#contact-a form {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+#contact-a .text-fields {
+  width: 100%;
+  box-sizing: border-box;
+}
+
 /* {
   display: grid;
   grid-template-columns: auto auto;
