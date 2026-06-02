@@ -500,6 +500,16 @@ img {
   display: block;
 }
 
+@media (max-width: 600px) {
+  .project-card img {
+    height: auto;
+    max-height: none;
+    object-fit: contain;
+    object-position: center;
+    background: #fff;
+  }
+}
+
 .project-card.featured {
   border-top: 5px solid var(--main-color);
 }
