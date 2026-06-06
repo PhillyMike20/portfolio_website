@@ -470,7 +470,6 @@ img {
   grid-template-columns: repeat(3, 1fr);
   gap: 1.75rem;
   margin-top: 1.5rem;
-  align-items: start;
 }
 
 .single-project {
