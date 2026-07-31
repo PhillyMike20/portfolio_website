@@ -318,7 +318,9 @@ img {
       line-height: 90px; }
       #home-c .values-icon:hover .values-step {
         background: #fbf6f1; }
-
+.about-links {
+    text-align: left;
+}
 #about-ds .about-info {
   display: grid;
   grid-template-areas: "bioimage bio bio"
